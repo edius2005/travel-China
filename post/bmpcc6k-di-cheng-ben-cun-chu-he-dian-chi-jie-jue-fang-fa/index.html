@@ -1,0 +1,170 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BMPCC6K低成本存储和电池解决方法 | Gridea</title>
+<link rel="shortcut icon" href="https://https://edius2005.github.io/travel-China.github.io//favicon.ico?v=1584713182998">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://https://edius2005.github.io/travel-China.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="BMPCC6K低成本存储和电池解决方法 | Gridea - Atom Feed" href="https://https://edius2005.github.io/travel-China.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+前面顺丰小哥已经帮我拆了箱，相信大家已经看了不少BMPCC6K的评测，6K的画质非常好，但是数据量非常大，如果记录6K 3:1 Blackmagic RAW格式，一分钟20G的数据量，要记录60分钟就需要1.2T的存储卡，如果购买CFAS..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://https://edius2005.github.io/travel-China.github.io/">
+  <img class="avatar" src="https://https://edius2005.github.io/travel-China.github.io//images/avatar.png?v=1584713182998" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              BMPCC6K低成本存储和电池解决方法
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-03-20
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <!-- more -->
+<p>前面顺丰小哥已经帮我拆了箱，相信大家已经看了不少BMPCC6K的评测，6K的画质非常好，但是数据量非常大，如果记录6K 3:1 Blackmagic RAW格式，一分钟20G的数据量，要记录60分钟就需要1.2T的存储卡，如果购买CFAST2.0存储卡,那将是一笔不少的钱，有人说，三星T5不好吗？1T的三星T5是不能满足6K 3:1 Blackmagic  RAW格式的记录需要的，因为它的连续写速度不够。另外BMPCC6K功耗惊人，官方的PDF文档上明确说明，标准记录模式下需要16W的功率，如果外接记录需要25W的功率，这对于14W的E6电池来说功率太大了，今天我分享一下，我的低成本BMPCC6K存储和电池解决方法。</p>
+<pre><code> 我买过两块1T的三星SM863A SSD，这是为阿童木 NINJA V配置的，SM863A可以连续480M/秒全盘写入，那么我只需要一条SSD转TYPE-C的易驱线就可以了，你可以在某宝上搜ASM1153E，可以找到一条这样的TYPE-C转SSD的易驱线，这里特别要说明的是，某宝上大部分的易驱线都是基于 JMS芯片的，JMS芯片的连续写速度达不到BMPCC6K的记录需要，一定要买1153E TYPE C接口的，如果是亚马逊用户，可以买到ASM1351的芯片的易驱线，这个芯片是基于USB3.1 GEN2的，比1153E更好。当然你还需要买一个这样的手机夹，还有一个TYPE C L转接头，可以满足6K 3:1 50P连续记录，我把它安装到BMPCC 6K的顶部。并且我用3D打印机打印了一个简单的保护盒，来保护脆弱的SATA接口，这样就组成了一个最轻便的可以装稳定器上拍摄6K 50P的方法，希望你喜欢。基于MLC内存的SSD都可以连续写入超过400M，比如三星850PRO 860PRO等等。
+ 如果用E6电池外接SSD记录，那么一块电池只能使用约30分钟，不停的更换电池会影响拍摄效率，如果要满足一天的拍摄需要你至少需要10多块电池，真的买不起，最关键的是充电和管理这些电池都是个不小的麻烦，某鱼上有大量的TESLA上拆下来的3400MA的18650电池，单个电池约12W，重量50克，我把它做成4个串联，电压14V，来降低工作电流，让商家焊接好保护版，BMPCC 6K在14V电压下，实测拍摄工作电流1.3A，待机工作电流1.2A，成本很低，三块电池可以满足一天连续不停拍摄的需要，并且很小，可以安装于BMPCC6K的顶部。以上就是我的BMPCC6K的电池和存储解决方法，我把SSD保护盒和电池盒的3D打印文件分享在下面，希望大家喜欢。感谢大家观看！
+</code></pre>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://https://edius2005.github.io/travel-China.github.io/post/hello-gridea/">
+              <h3 class="post-title">
+                Hello Gridea
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://https://edius2005.github.io/travel-China.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
