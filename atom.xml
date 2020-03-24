@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://https://edius2005.github.io/travel-China.github.io/</id>
-    <title>EDIUS2005 Blog</title>
-    <updated>2020-03-24T01:51:04.624Z</updated>
+    <title>Assistant T. Blog</title>
+    <updated>2020-03-24T11:11:51.083Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://https://edius2005.github.io/travel-China.github.io/"/>
     <link rel="self" href="https://https://edius2005.github.io/travel-China.github.io/atom.xml"/>
     <logo>https://https://edius2005.github.io/travel-China.github.io/images/avatar.png</logo>
     <icon>https://https://edius2005.github.io/travel-China.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, EDIUS2005 Blog</rights>
+    <rights>All rights reserved 2020, Assistant T. Blog</rights>
     <entry>
         <title type="html"><![CDATA[BMPCC6K低成本存储和电池解决方法]]></title>
         <id>https://https://edius2005.github.io/travel-China.github.io/post/bmpcc6k-di-cheng-ben-cun-chu-he-dian-chi-jie-jue-fang-fa/</id>
@@ -17,7 +17,7 @@
         <updated>2020-03-20T14:13:28.000Z</updated>
         <content type="html"><![CDATA[<p>前面顺丰小哥已经帮我拆了箱，相信大家已经看了不少BMPCC6K的评测，6K的画质非常好，但是数据量非常大，如果记录6K 3:1 Blackmagic RAW格式，一分钟20G的数据量，要记录60分钟就需要1.2T的存储卡，如果购买CFAST2.0存储卡,那将是一笔不少的钱，有人说，三星T5不好吗？1T的三星T5是不能满足6K 3:1 Blackmagic  RAW格式的记录需要的，因为它的连续写速度不够。另外BMPCC6K功耗惊人，官方的PDF文档上明确说明，标准记录模式下需要16W的功率，如果外接记录需要25W的功率，这对于14W的E6电池来说功率太大了，今天我分享一下，我的低成本BMPCC6K存储和电池解决方法。</p>
 <pre><code> 我买过两块1T的三星SM863A SSD，这是为阿童木 NINJA V配置的，SM863A可以连续480M/秒全盘写入，那么我只需要一条SSD转TYPE-C的易驱线就可以了，你可以在某宝上搜ASM1153E，可以找到一条这样的TYPE-C转SSD的易驱线，这里特别要说明的是，某宝上大部分的易驱线都是基于 JMS芯片的，JMS芯片的连续写速度达不到BMPCC6K的记录需要，一定要买1153E TYPE C接口的，如果是亚马逊用户，可以买到ASM1351的芯片的易驱线，这个芯片是基于USB3.1 GEN2的，比1153E更好。当然你还需要买一个这样的手机夹，还有一个TYPE C L转接头，可以满足6K 3:1 50P连续记录，我把它安装到BMPCC 6K的顶部。并且我用3D打印机打印了一个简单的保护盒，来保护脆弱的SATA接口，这样就组成了一个最轻便的可以装稳定器上拍摄6K 50P的方法，希望你喜欢。基于MLC内存的SSD都可以连续写入超过400M，比如三星850PRO 860PRO等等。
- 如果用E6电池外接SSD记录，那么一块电池只能使用约30分钟，不停的更换电池会影响拍摄效率，如果要满足一天的拍摄需要你至少需要10多块电池，真的买不起，最关键的是充电和管理这些电池都是个不小的麻烦，某鱼上有大量的TESLA上拆下来的3400MA的18650电池，单个电池约12W，重量50克，我把它做成4个串联，电压14V，来降低工作电流，让商家焊接好保护版，BMPCC 6K在14V电压下，实测拍摄工作电流1.3A，待机工作电流1.2A，成本很低，三块电池可以满足一天连续不停拍摄的需要，并且很小，可以安装于BMPCC6K的顶部。以上就是我的BMPCC6K的电池和存储解决方法，我把SSD保护盒和电池盒的3D打印文件分享在下面，希望大家喜欢。感谢大家观看！
+ 如果用E6电池外接SSD记录，那么一块电池只能使用约30分钟，不停的更换电池会影响拍摄效率，如果要满足一天的拍摄需要你至少需要10多块电池，真的买不起，最关键的是充电和管理这些电池都是个不小的麻烦，某鱼上有大量的TESLA上拆下来的3400MA的18650电池，单个电池约12W，重量50克，我把它做成4个串联，电压14V，来降低工作电流，让商家焊接好保护版，BMPCC 6K在14V电压下，实测拍摄工作电流1.3A，待机工作电流1.2A，成本很低，三块电池可以满足一天连续不停拍摄的需要，并且很小，可以安装于BMPCC6K的顶部。以上就是我的BMPCC6K的电池和存储解决方法，我把SSD保护盒和电池盒的3D打印文件分享在下面，希望大家喜欢！
 </code></pre>
 ]]></content>
     </entry>
