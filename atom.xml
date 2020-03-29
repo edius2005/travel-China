@@ -2,13 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://https://edius2005.github.io/travel-China.github.io/</id>
     <title>Assistant T. Blog</title>
-    <updated>2020-03-24T11:15:42.255Z</updated>
+    <updated>2020-03-29T00:42:00.904Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://https://edius2005.github.io/travel-China.github.io/"/>
     <link rel="self" href="https://https://edius2005.github.io/travel-China.github.io/atom.xml"/>
     <logo>https://https://edius2005.github.io/travel-China.github.io/images/avatar.png</logo>
     <icon>https://https://edius2005.github.io/travel-China.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Assistant T. Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Build an iMac]]></title>
+        <id>https://https://edius2005.github.io/travel-China.github.io/post/build-an-imac/</id>
+        <link href="https://https://edius2005.github.io/travel-China.github.io/post/build-an-imac/">
+        </link>
+        <updated>2020-03-29T00:41:20.000Z</updated>
+        <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/TxPtqfHNEx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BMPCC6K低成本存储和电池解决方法]]></title>
         <id>https://https://edius2005.github.io/travel-China.github.io/post/bmpcc6k-di-cheng-ben-cun-chu-he-dian-chi-jie-jue-fang-fa/</id>
